@@ -949,6 +949,10 @@ function LoadStartScreen () {
     500,
     true
     )
+    forZoeyText = fancyText.create("For Zoey")
+    forZoeyText.setPosition(85, 110)
+    fancyText.setFont(forZoeyText, fancyText.geometric_sans_6)
+    fancyText.setColor(forZoeyText, 4)
 }
 function createDecoAt (col: number, row: number, decoSpriteImage: Image) {
     newDeco = sprites.create(decoSpriteImage, SpriteKind.Deco)
@@ -1085,6 +1089,7 @@ let heart: Sprite = null
 let ghost: Sprite = null
 let pumpkin: Sprite = null
 let newDeco: Sprite = null
+let forZoeyText: fancyText.TextSprite = null
 let witch: Sprite = null
 let bossHealth: StatusBarSprite = null
 let loseText2: fancyText.TextSprite = null
