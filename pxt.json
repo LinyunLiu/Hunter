@@ -1,5 +1,6 @@
 {
     "name": "Zoey",
+    "version": "0.0.1",
     "description": "A birthday gift for Zoey",
     "dependencies": {
         "device": "*",
