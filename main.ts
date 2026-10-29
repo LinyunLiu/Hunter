@@ -237,6 +237,7 @@ scene.onHitWall(SpriteKind.Player, function (sprite, location) {
 function LoadMapAndSprites () {
     sprites.destroy(gameTitle)
     sprites.destroy(gameSubtitle)
+    sprites.destroy(forZoeyText)
     sprites.destroy(buttonA)
     effects.starField.endScreenEffect()
     tiles.setCurrentTilemap(tilemap`level1`)
@@ -1089,7 +1090,6 @@ let heart: Sprite = null
 let ghost: Sprite = null
 let pumpkin: Sprite = null
 let newDeco: Sprite = null
-let forZoeyText: fancyText.TextSprite = null
 let witch: Sprite = null
 let bossHealth: StatusBarSprite = null
 let loseText2: fancyText.TextSprite = null
@@ -1100,6 +1100,7 @@ let scorePumpkin: Sprite = null
 let zoeyHealth: StatusBarSprite = null
 let bat: Sprite = null
 let buttonA: Sprite = null
+let forZoeyText: fancyText.TextSprite = null
 let gameSubtitle: fancyText.TextSprite = null
 let gameTitle: fancyText.TextSprite = null
 let doors: tiles.Location[] = []
